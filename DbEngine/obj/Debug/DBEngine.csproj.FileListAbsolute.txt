@@ -1,0 +1,4 @@
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\bin\Debug\DBEngine.dll
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\bin\Debug\DBEngine.pdb
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\obj\Debug\DBEngine.dll
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\obj\Debug\DBEngine.pdb

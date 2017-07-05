@@ -1,0 +1,6 @@
+C:\Users\lucen\Documents\GitHub\DBEngineProject\ConsoleForTest\bin\Debug\ConsoleForTest.exe.config
+C:\Users\lucen\Documents\GitHub\DBEngineProject\ConsoleForTest\bin\Debug\ConsoleForTest.exe
+C:\Users\lucen\Documents\GitHub\DBEngineProject\ConsoleForTest\bin\Debug\ConsoleForTest.pdb
+C:\Users\lucen\Documents\GitHub\DBEngineProject\ConsoleForTest\obj\Debug\ConsoleForTest.csprojResolveAssemblyReference.cache
+C:\Users\lucen\Documents\GitHub\DBEngineProject\ConsoleForTest\obj\Debug\ConsoleForTest.exe
+C:\Users\lucen\Documents\GitHub\DBEngineProject\ConsoleForTest\obj\Debug\ConsoleForTest.pdb

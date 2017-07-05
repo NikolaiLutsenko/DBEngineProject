@@ -1,0 +1,6 @@
+C:\Users\lucen\Documents\GitHub\DBEngineProject\TestConsole\bin\Debug\TestConsole.exe.config
+C:\Users\lucen\Documents\GitHub\DBEngineProject\TestConsole\bin\Debug\TestConsole.exe
+C:\Users\lucen\Documents\GitHub\DBEngineProject\TestConsole\bin\Debug\TestConsole.pdb
+C:\Users\lucen\Documents\GitHub\DBEngineProject\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
+C:\Users\lucen\Documents\GitHub\DBEngineProject\TestConsole\obj\Debug\TestConsole.exe
+C:\Users\lucen\Documents\GitHub\DBEngineProject\TestConsole\obj\Debug\TestConsole.pdb

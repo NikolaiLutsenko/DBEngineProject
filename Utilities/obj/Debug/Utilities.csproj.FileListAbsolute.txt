@@ -1,0 +1,11 @@
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\Utilities\bin\Debug\Utilities.dll
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\Utilities\bin\Debug\Utilities.pdb
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\Utilities\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\Utilities\obj\Debug\Utilities.dll
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\Utilities\obj\Debug\Utilities.pdb
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache
+C:\Users\lucen\Documents\GitHub\DBEngineProject\Utilities\bin\Debug\Utilities.dll
+C:\Users\lucen\Documents\GitHub\DBEngineProject\Utilities\bin\Debug\Utilities.pdb
+C:\Users\lucen\Documents\GitHub\DBEngineProject\Utilities\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
+C:\Users\lucen\Documents\GitHub\DBEngineProject\Utilities\obj\Debug\Utilities.dll
+C:\Users\lucen\Documents\GitHub\DBEngineProject\Utilities\obj\Debug\Utilities.pdb

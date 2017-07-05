@@ -1,0 +1,17 @@
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\bin\Debug\DBEngineProject.dll
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\bin\Debug\DBEngineProject.pdb
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\obj\Debug\DBEngineProject.csprojResolveAssemblyReference.cache
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\obj\Debug\DBEngineProject.dll
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\obj\Debug\DBEngineProject.pdb
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\bin\Debug\Utilities.dll
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\bin\Debug\Utilities.pdb
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\bin\Debug\Patterns.exe
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\bin\Debug\Patterns.pdb
+C:\Users\lucen\Documents\Visual Studio 2017\Projects\TestConsole\DBEngine\bin\Debug\Patterns.exe.config
+C:\Users\lucen\Documents\GitHub\DBEngineProject\DbEngine\bin\Debug\DBEngineProject.dll
+C:\Users\lucen\Documents\GitHub\DBEngineProject\DbEngine\bin\Debug\DBEngineProject.pdb
+C:\Users\lucen\Documents\GitHub\DBEngineProject\DbEngine\bin\Debug\Utilities.dll
+C:\Users\lucen\Documents\GitHub\DBEngineProject\DbEngine\bin\Debug\Utilities.pdb
+C:\Users\lucen\Documents\GitHub\DBEngineProject\DbEngine\obj\Debug\DBEngineProject.csprojResolveAssemblyReference.cache
+C:\Users\lucen\Documents\GitHub\DBEngineProject\DbEngine\obj\Debug\DBEngineProject.dll
+C:\Users\lucen\Documents\GitHub\DBEngineProject\DbEngine\obj\Debug\DBEngineProject.pdb
