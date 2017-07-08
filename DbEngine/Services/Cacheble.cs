@@ -50,7 +50,13 @@ namespace DBEngineProject.Services
             Cache.Set(cacheKey, value, policy);
         }
 
-        public virtual T GetFromCache<T>(string cacheKey)
+		public virtual void InsertIntoCahce(string cacheKey, object value, TimeSpan expiration)
+		{
+			InsertIntoCahce(cacheKey, value, expiration.TotalSeconds);
+		}
+
+
+		public virtual T GetFromCache<T>(string cacheKey)
         {
             var result = Cache[cacheKey];
             return result.IsNull() ? default(T) : (T)result;
