@@ -13,11 +13,45 @@ using System.IO;
 
 namespace DBEngineProject.Services
 {
+
+	/// <summary>
+	/// Class for work with db (invoke procedure, DML and etc.).
+	/// </summary>
     public abstract class BaseService: Cacheble
     {
-        protected string SqlConnectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=TestDBEngine;Integrated Security=True";
 
-        private SqlCommand GetCommand(string sqlText, CommandType type, string connectionString)
+		#region Protected: Properties
+
+		/// <summary>
+		/// Connection string.
+		/// </summary>
+		protected string SqlConnectionString { get; private set; }
+
+		#endregion
+
+		#region Pubblic: Constructors
+
+		/// <summary>
+		/// Ctor.
+		/// </summary>
+		/// <param name="connectionString">Connection string for db.</param>
+		public BaseService(string connectionString)
+		{
+			SqlConnectionString = connectionString;
+		}
+
+		#endregion
+
+		#region Private: Methods
+
+		/// <summary>
+		/// Gets data base command. 
+		/// </summary>
+		/// <param name="sqlText">Sql text.</param>
+		/// <param name="type">Command type text or procedure.</param>
+		/// <param name="connectionString">Connection string.</param>
+		/// <returns>Sql command.</returns>
+		private SqlCommand GetCommand(string sqlText, CommandType type, string connectionString)
         {
             var command = new SqlCommand(sqlText, new SqlConnection(connectionString))
             {
@@ -26,19 +60,44 @@ namespace DBEngineProject.Services
             return command;
         }
 
-        protected virtual SqlCommand CreateCommand(string sqlText)
+		#endregion
+
+		#region Protected: Methods
+
+		/// <summary>
+		/// Gets sql command.
+		/// </summary>
+		/// <param name="sqlText">Sql command.</param>
+		/// <returns>Returns database command.</returns>
+		protected virtual SqlCommand CreateCommand(string sqlText)
         {
             return GetCommand(sqlText, CommandType.Text, SqlConnectionString);
         }
 
-        protected virtual SqlCommand CreateCommand(string sqlText, CommandType type)
+		/// <summary>
+		/// Gets sql command.
+		/// </summary>
+		/// <param name="sqlText">Sql command.</param>
+		/// <param name="type">Command type: text or procedure.</param>
+		/// <returns>Returns database command.</returns>
+		protected virtual SqlCommand CreateCommand(string sqlText, CommandType type)
         {
             return GetCommand(sqlText, type, SqlConnectionString);
         }
 
-        protected virtual SqlCommand CreateCommand(string sqlText, CommandType type, string connectionString)
+		/// <summary>
+		/// Gets sql command.
+		/// </summary>
+		/// <param name="sqlText">Sql command.</param>
+		/// <param name="type">Command type: text or procedure.</param>
+		/// <param name="connectionString">Connection string.</param>
+		/// <returns>Returns database command.</returns>
+		protected virtual SqlCommand CreateCommand(string sqlText, CommandType type, string connectionString)
         {
             return GetCommand(sqlText, type, connectionString);
         }
-    }
+
+		#endregion
+
+	}
 }

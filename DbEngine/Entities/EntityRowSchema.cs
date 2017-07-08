@@ -1,5 +1,4 @@
-﻿using DBEngineProject.Attributes;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Data.SqlClient;
@@ -37,9 +36,6 @@ namespace DBEngineProject.Entities
             TableName = tableName;
             AddRange(columns);
         }
-
-        public EntityRowSchema(DBTableAttribute tableAttribute, IEnumerable<EntityColumnSchema> columns)
-            :this(tableAttribute.Name, columns) { }
 
         #endregion
 

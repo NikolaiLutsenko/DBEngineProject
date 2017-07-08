@@ -9,3 +9,4 @@ C:\Users\lucen\Documents\GitHub\DBEngineProject\Utilities\bin\Debug\Utilities.pd
 C:\Users\lucen\Documents\GitHub\DBEngineProject\Utilities\bin\Debug\Microsoft.VisualStudio.DebuggerVisualizers.dll
 C:\Users\lucen\Documents\GitHub\DBEngineProject\Utilities\obj\Debug\Utilities.dll
 C:\Users\lucen\Documents\GitHub\DBEngineProject\Utilities\obj\Debug\Utilities.pdb
+C:\Users\lucen\Documents\GitHub\DBEngineProject\Utilities\obj\Debug\Utilities.csprojResolveAssemblyReference.cache

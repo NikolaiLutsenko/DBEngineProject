@@ -11,12 +11,11 @@ namespace DBEngineProject.Services
 {
     public class TestService: BaseService
     {
+		
         public TestService()
-        {
-            SqlConnectionString = @"Data Source=localhost\SQLEXPRESS;Initial Catalog=TestDBEngine;Integrated Security=True";
-        }
+			:base(@"Data Source=localhost\SQLEXPRESS;Initial Catalog=TestDBEngine;Integrated Security=True") { }
 
-        public Object GetClientList1(int clientId) 
+		public Object GetClientList1(int clientId) 
         {
             string key = GetCacheKey(clientId, nameof(GetClientList1));
             var result = GetFromCache<Object>(key);
@@ -24,7 +23,7 @@ namespace DBEngineProject.Services
             {
                 result = new object();
             }
-            InsertIntoCahce(key, result, 10);
+            InsertIntoCahce(key, result, TimeSpan.FromSeconds(10));
             return result;
         }
     }

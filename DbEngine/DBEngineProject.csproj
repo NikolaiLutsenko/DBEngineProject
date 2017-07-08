@@ -43,15 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Attributes\IdentityAttribute.cs" />
-    <Compile Include="Attributes\NameAttribute.cs" />
-    <Compile Include="Attributes\NullAttribute.cs" />
-    <Compile Include="Attributes\DBColumnAttribute.cs" />
-    <Compile Include="Attributes\IgnoreAttribute.cs" />
-    <Compile Include="Attributes\DBTableAttribute.cs" />
-    <Compile Include="Attributes\PrimaryAttribute.cs" />
     <Compile Include="Entities\EntityColumnSchema.cs" />
-    <Compile Include="Entities\EntityRowSchemaEventArgs.cs" />
     <Compile Include="Entities\EntityDB.cs" />
     <Compile Include="Entities\EntityRowSchema.cs" />
     <Compile Include="Entities\EntityTable.cs" />

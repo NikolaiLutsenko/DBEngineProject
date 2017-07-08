@@ -6,7 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 using DBEngineProject.Exceptions;
 using Utilities.Extensions;
-using DBEngineProject.Attributes;
 using System.Data;
 
 namespace DBEngineProject.Entities
